@@ -18,7 +18,9 @@
             <h1>Hello World</h1>
             <p> Just a sample page with sample text and a sample CTA. Click and nothing will happen.</p>
             <a class="btn btn-primary" onclick="clickBtn()">Signup now</a>
-            <script>fun clickBtn(){analytics.track('Button clicked')}</script>
+            <script>function clickBtn(){
+                analytics.track('Button clicked')}
+            </script>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
